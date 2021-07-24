@@ -1,8 +1,13 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     margin: 0px;
     background-color:#8EC5FC;
     font-family: 'Mulish', sans-serif;
+
 }
 .header{
     
@@ -31,12 +36,18 @@ body{
     font-weight: bolder;
 
 }
+.text p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
     /* .header__img{
         width: 200px;
         margin-top: 10px;
         margin-left: 10px;
     } */
-    .header__menu
+    /* .header__menu
     {
         margin-right: 30px;
     }
@@ -60,7 +71,7 @@ body{
         text-decoration: underline;
     }
     .header__menu:hover ul, ul:hover{
-        display:block;
+        display:block; */
     }
     .header__menu--profile{
         display:flex;
