@@ -2,9 +2,6 @@
 body{
     margin: 0px;
     background-color:#8EC5FC;
-   
-   
-    
     font-family: 'Mulish', sans-serif;
 }
 .header{
@@ -20,18 +17,18 @@ body{
 }
 .header__cabecera{
     position: relative;
-    right: 50vh;
+    right: 20%;
     color: #003049;
     font-size: 20px;
+    font-weight: 700;
 }
-.header__title h1{
+.header h1{
     color: white;
     display: flex;
     text-align: center;
     align-items: center;
     font-size: 50px;
     font-weight: bolder;
-    box-shadow: inset;
 
 }
     /* .header__img{
