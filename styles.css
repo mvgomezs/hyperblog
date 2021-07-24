@@ -20,7 +20,7 @@ body{
 }
 .header__cabecera{
     position: relative;
-    right: 180px;
+    right: 50vh;
     color: #003049;
     font-size: 20px;
 }
@@ -31,6 +31,7 @@ body{
     align-items: center;
     font-size: 50px;
     font-weight: bolder;
+    box-shadow: inset;
 
 }
     /* .header__img{
